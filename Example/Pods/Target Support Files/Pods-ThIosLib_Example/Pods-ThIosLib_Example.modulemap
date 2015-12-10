@@ -1,0 +1,6 @@
+framework module Pods_ThIosLib_Example {
+  umbrella header "Pods-ThIosLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

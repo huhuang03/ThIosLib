@@ -1,0 +1,14 @@
+PODS:
+  - ThIosLib (0.1.0)
+
+DEPENDENCIES:
+  - ThIosLib (from `../`)
+
+EXTERNAL SOURCES:
+  ThIosLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThIosLib: e9d185120c36ceb63e630aaf73d05459ccbbd19f
+
+COCOAPODS: 0.39.0

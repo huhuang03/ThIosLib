@@ -1,0 +1,6 @@
+framework module ThIosLib {
+  umbrella header "ThIosLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
