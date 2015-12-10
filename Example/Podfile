@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ThIosLib_Example', :exclusive => true do
+  pod "ThIosLib", :path => "../"
+end
+
+target 'ThIosLib_Tests', :exclusive => true do
+  pod "ThIosLib", :path => "../"
+
+  
+end
