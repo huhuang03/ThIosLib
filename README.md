@@ -20,6 +20,8 @@ it, simply add the following line to your Podfile:
 pod "ThIosLib"
 ```
 
+For now, it only for my use
+
 ## Author
 
 huhuang03, huhuang03@gmail.com

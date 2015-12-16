@@ -1,5 +1,7 @@
 PODS:
-  - ThIosLib (0.1.0)
+  - Alamofire (3.1.3)
+  - ThIosLib (0.1.0):
+    - Alamofire (~> 3.0)
 
 DEPENDENCIES:
   - ThIosLib (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ThIosLib: e9d185120c36ceb63e630aaf73d05459ccbbd19f
+  Alamofire: 9f93b56389e48def9220dd57d1f44b1927229a5a
+  ThIosLib: 0f92c2e7492a3009971431df9aae5e95c881eb3f
 
 COCOAPODS: 0.39.0

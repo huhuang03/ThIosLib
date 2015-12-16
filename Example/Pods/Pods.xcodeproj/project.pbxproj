@@ -7,120 +7,258 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F17FD8637607D5A62F4B8A56A0D1F68 /* Pods-ThIosLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6B5CC25471CF7BABD55F75572299B /* Pods-ThIosLib_Tests-dummy.m */; };
-		45DA0596C4EF01200E16F74A6ABABE67 /* Pods-ThIosLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0182035498956B763318B34125B2762A /* Pods-ThIosLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B8B55BC55C2F16D8DC88618975DEF5A /* Pods-ThIosLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94480A3DA661F986C545530E71AF3748 /* Pods-ThIosLib_Example-dummy.m */; };
-		96FDE489B0B61F78F68F6FC3160630F1 /* Pods-ThIosLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0214D92483273534EA9226F8245B24 /* Pods-ThIosLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7403BD3989F13DC6BAB6F8EA40B4F1D /* ThIosLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22BDA5C383AD9760B594A9168C1091B7 /* ThIosLib.bundle */; };
-		C40809D811D98EF29937C93027753778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		CD6CE6DC761AC00A77B8911A41302E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D066129B5B0C60A0CBE78D0B395D665A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1703CA5687E02735879E22EC4176A9 /* ReplaceMe.swift */; };
-		F0DC3A650ABAEA377E2CEC34B14EB30D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F49814B212E45B18E77E6FE471CFE4A6 /* ThIosLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32C205B6A568A1B727A80214541FB3F /* ThIosLib-dummy.m */; };
-		FCAB48A783E7DB816D50B457AFE848B6 /* ThIosLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38723850C8A91A4EABD0FB740F932E28 /* ThIosLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01FC0C951A2797864D94A94214F96B9B /* Pods-ThIosLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94480A3DA661F986C545530E71AF3748 /* Pods-ThIosLib_Example-dummy.m */; };
+		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */; };
+		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */; };
+		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C950B32EC62D04B296924A14196A70 /* Pods-ThIosLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0214D92483273534EA9226F8245B24 /* Pods-ThIosLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39413C392F571C4B10B12566079E5C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		3D3B2760C516EE4F2662025E288880BD /* ThIosLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38723850C8A91A4EABD0FB740F932E28 /* ThIosLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */; };
+		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */; };
+		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */; };
+		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */; };
+		96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241F56B5C8C48BD734958D586267D1A /* Manager.swift */; };
+		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */; };
+		A6C81E9FCD961E972EC6E33B522D62ED /* ThIosLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98A52D79929907085C540FCEF1263515 /* ThIosLib.bundle */; };
+		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */; };
+		B31548CC0364129FCF68F855B142F0F5 /* ThIosLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32C205B6A568A1B727A80214541FB3F /* ThIosLib-dummy.m */; };
+		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */; };
+		B6D9238C2ACD60BC6C1043D02DFF175C /* Pods-ThIosLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0182035498956B763318B34125B2762A /* Pods-ThIosLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD98A0851C1FFD5300713E32 /* ThApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98A0841C1FFD5300713E32 /* ThApp.swift */; };
+		BD98A0871C2021AD00713E32 /* ThResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98A0861C2021AD00713E32 /* ThResponseObjectSerializable.swift */; };
+		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B19103BE8402A434ED95F67573911 /* Validation.swift */; };
+		CFDE1E4BF0EBEF5CE62E360B7BDE1918 /* Pods-ThIosLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6B5CC25471CF7BABD55F75572299B /* Pods-ThIosLib_Tests-dummy.m */; };
+		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */; };
+		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83957AB2EE778B52399CC4C903539BD0 /* Error.swift */; };
+		EAB81FBD9C181E179CCDEA4CA0223AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		F253B425D46CBC7EC60758F1D67EA894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		F57EE04A3C6E381E535B56E961720A6A /* ThTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCB8D6ECF5FA31EF464A5D1C15DF4A7 /* ThTest.swift */; };
+		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */; };
+		FDDE4F99BDACB633D988390FA42645BC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
+		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		305E05F130F291E0C6374C15417E72CE /* PBXContainerItemProxy */ = {
+		04BC9328CBFE7F7D495CBB852CEC78AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B87936A38EE52269AA6E1B89035F1C2;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		0765F7629B46B197CCF8BE5609EB4E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A28CE57C8D7A0A0CD4EBED17912C6C2;
 			remoteInfo = ThIosLib;
 		};
-		77048EE3D5F58CBC8080B732678BB5B3 /* PBXContainerItemProxy */ = {
+		0AACCF73A3702BDF496A7FA6C53F535A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EB85E9DE387A8D09CF24D36B284547D1;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		167B3EDA2BDC5C11D0E9B38A43D0B8B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B315A825EF585F78F80CFF1701309680;
 			remoteInfo = "ThIosLib-ThIosLib";
 		};
-		EC868A40FE64F519644AA21839D73B61 /* PBXContainerItemProxy */ = {
+		666AC93C6DE2562244172B015C697D41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B87936A38EE52269AA6E1B89035F1C2;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		7C91F045575BAE037D80712D39B31EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A28CE57C8D7A0A0CD4EBED17912C6C2;
 			remoteInfo = ThIosLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0182035498956B763318B34125B2762A /* Pods-ThIosLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThIosLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		116A1926161B76041859A2A2B4D6297B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA6B5CC25471CF7BABD55F75572299B /* Pods-ThIosLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThIosLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		22BDA5C383AD9760B594A9168C1091B7 /* ThIosLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThIosLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		2990E82555A272398C1C4D4F4F063154 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThIosLib.xcconfig; sourceTree = "<group>"; };
 		38723850C8A91A4EABD0FB740F932E28 /* ThIosLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThIosLib-umbrella.h"; sourceTree = "<group>"; };
 		3C560A705FA360FC56A791D414DD3A42 /* Pods-ThIosLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThIosLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3F1703CA5687E02735879E22EC4176A9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		408707DE967CA404CEECCFF6D8768356 /* Pods-ThIosLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThIosLib_Example.modulemap"; sourceTree = "<group>"; };
+		4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5241F56B5C8C48BD734958D586267D1A /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		577149B3297A534DAAC585A6370C4138 /* Pods_ThIosLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThIosLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF3E71C781A10895C7D26A4CC0E1BC /* ThIosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThIosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A680E2FF741837DA41CC08B3BC1C81C /* Pods-ThIosLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThIosLib_Tests.modulemap"; sourceTree = "<group>"; };
+		5E53BF5A61CAF6972C5CDD2C3EE6C003 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6484CDB922762045E5314E62936FAFAC /* Pods-ThIosLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThIosLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		66AFDF195ECE0FA214E86878DCC5088F /* Pods-ThIosLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThIosLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		67B1720756D90B21DAF7D4D8B330B5BE /* Pods-ThIosLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThIosLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779B19103BE8402A434ED95F67573911 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		7FD435A58CA5DD8046C6C78B31AD26E5 /* ThIosLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThIosLib-prefix.pch"; sourceTree = "<group>"; };
 		815CAE293A7F4148826BBEBD8270E987 /* ThIosLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ThIosLib.modulemap; sourceTree = "<group>"; };
+		83957AB2EE778B52399CC4C903539BD0 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		842F19DB2611AB878933BF78C573A41D /* Pods-ThIosLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThIosLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		887E3274D81C7E69C9537ABFFD1030A8 /* Pods-ThIosLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThIosLib_Example-resources.sh"; sourceTree = "<group>"; };
+		8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8BCB8D6ECF5FA31EF464A5D1C15DF4A7 /* ThTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThTest.swift; sourceTree = "<group>"; };
+		8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		94480A3DA661F986C545530E71AF3748 /* Pods-ThIosLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThIosLib_Example-dummy.m"; sourceTree = "<group>"; };
+		948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		98A52D79929907085C540FCEF1263515 /* ThIosLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThIosLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A417D7D168FBCF44D8D2AE8D9EF1AF90 /* Pods_ThIosLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThIosLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FB679D2CC7439D85E3C425E2C47C3C /* Pods-ThIosLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThIosLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A62423D94F8A45A4496A8EA06F0B04CC /* Pods_ThIosLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThIosLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB1705CBEAF0670F048DD3A77F12EA5 /* Pods-ThIosLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThIosLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		ADBF4C1554A0A73C779675861A7610A5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B84683E76078198CF3F084E2143307 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD98A0841C1FFD5300713E32 /* ThApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThApp.swift; sourceTree = "<group>"; };
+		BD98A0861C2021AD00713E32 /* ThResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
 		CA4AFEBCD05E71EF894C674FA1E278B1 /* Pods-ThIosLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThIosLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0F8EBC5726A37D39B81B2E05F8A1F2A /* Pods-ThIosLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThIosLib_Tests-resources.sh"; sourceTree = "<group>"; };
-		D7DA80E4A0ED6DA714E902A626D7CAEF /* Pods_ThIosLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThIosLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32C205B6A568A1B727A80214541FB3F /* ThIosLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThIosLib-dummy.m"; sourceTree = "<group>"; };
+		E6D51E88CF06503F74AC8F5ECD5A209B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		E7494E23AF478B930E8497A83E6EBC74 /* Pods-ThIosLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThIosLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F36B882ED81092EAD8887A697D410C32 /* Pods-ThIosLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThIosLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4372F5253264D485A5B521C58661605 /* ThIosLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThIosLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		FF0214D92483273534EA9226F8245B24 /* Pods-ThIosLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThIosLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3EAD508E3173A871DAC46238FA4F6A72 /* Frameworks */ = {
+		521354D61EA8673903EFAA98BB6CAEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDE4F99BDACB633D988390FA42645BC /* Alamofire.framework in Frameworks */,
+				EAB81FBD9C181E179CCDEA4CA0223AC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5A16469EA741915DF11E237DA96CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F253B425D46CBC7EC60758F1D67EA894 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8752828CF72917144E66A95667F59824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39413C392F571C4B10B12566079E5C6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9249497AA8EDF61A0DDCE3F04B9B393A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A136103A59191CB978194BFB8C28323E /* Frameworks */ = {
+		A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40809D811D98EF29937C93027753778 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBA1184857F3B2EF153E24E1260C713B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0DC3A650ABAEA377E2CEC34B14EB30D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC6864EB7FFA59B89BE48AC8E9444569 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD6CE6DC761AC00A77B8911A41302E69 /* Foundation.framework in Frameworks */,
+				96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09192E6B9C45ACAB5568261F45FA3D88 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */,
+				ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */,
+				83957AB2EE778B52399CC4C903539BD0 /* Error.swift */,
+				5241F56B5C8C48BD734958D586267D1A /* Manager.swift */,
+				10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */,
+				5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */,
+				FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */,
+				8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */,
+				F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */,
+				7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */,
+				52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */,
+				C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */,
+				948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */,
+				779B19103BE8402A434ED95F67573911 /* Validation.swift */,
+				405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09192E6B9C45ACAB5568261F45FA3D88 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25308A143ED5AA82593A7E1D950849C4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		3CBE84ED132395171B6B8BA93F10BC7B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				62797FC06FE4804370E401A5F77C7E4E /* ThIosLib */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */,
+				7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */,
+				8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */,
+				E6D51E88CF06503F74AC8F5ECD5A209B /* Alamofire-prefix.pch */,
+				4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */,
+				5E53BF5A61CAF6972C5CDD2C3EE6C003 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		52CDD352C16E48381A3FA383EBCC9A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBF4C1554A0A73C779675861A7610A5 /* Alamofire.framework */,
+				577149B3297A534DAAC585A6370C4138 /* Pods_ThIosLib_Example.framework */,
+				A417D7D168FBCF44D8D2AE8D9EF1AF90 /* Pods_ThIosLib_Tests.framework */,
+				98A52D79929907085C540FCEF1263515 /* ThIosLib.bundle */,
+				59BF3E71C781A10895C7D26A4CC0E1BC /* ThIosLib.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		537F745A935DF121A8D41046B739DC05 /* Support Files */ = {
@@ -135,6 +273,25 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ThIosLib";
+			sourceTree = "<group>";
+		};
+		54C4D4B54AE2904DBEEC6B7F447D5D1C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB8D6ECF5FA31EF464A5D1C15DF4A7 /* ThTest.swift */,
+				BD98A0841C1FFD5300713E32 /* ThApp.swift */,
+				BD98A0861C2021AD00713E32 /* ThResponseObjectSerializable.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */,
+				25308A143ED5AA82593A7E1D950849C4 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5EED91AE5DC52AB18D5FAE99065912EA /* Pods-ThIosLib_Tests */ = {
@@ -170,8 +327,9 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				3CBE84ED132395171B6B8BA93F10BC7B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9B19C1531C74719C5D9D50C940D4FE88 /* Products */,
+				59B91F212518421F271EBA85D5530651 /* Frameworks */,
+				20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */,
+				52CDD352C16E48381A3FA383EBCC9A6D /* Products */,
 				BE82556377BA9A838D3231D932464225 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -194,25 +352,6 @@
 			path = "Target Support Files/Pods-ThIosLib_Example";
 			sourceTree = "<group>";
 		};
-		9B19C1531C74719C5D9D50C940D4FE88 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A62423D94F8A45A4496A8EA06F0B04CC /* Pods_ThIosLib_Example.framework */,
-				D7DA80E4A0ED6DA714E902A626D7CAEF /* Pods_ThIosLib_Tests.framework */,
-				22BDA5C383AD9760B594A9168C1091B7 /* ThIosLib.bundle */,
-				F4372F5253264D485A5B521C58661605 /* ThIosLib.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BE82556377BA9A838D3231D932464225 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,119 +364,131 @@
 		BF57ACEA4C7F5336CAF14E860E835E2B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D967186BD3EDB4106AEFF4E0F6EFB8F6 /* Classes */,
+				54C4D4B54AE2904DBEEC6B7F447D5D1C /* Classes */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D967186BD3EDB4106AEFF4E0F6EFB8F6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3F1703CA5687E02735879E22EC4176A9 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		22A7429726F8B52FD6853036B500787C /* Headers */ = {
+		49918CAFEBF87ABE6B42678D3C879AF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAB48A783E7DB816D50B457AFE848B6 /* ThIosLib-umbrella.h in Headers */,
+				B6D9238C2ACD60BC6C1043D02DFF175C /* Pods-ThIosLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AF75CF492D51345C4CB1D2C2B93011 /* Headers */ = {
+		5F7B61281F714E2A64A51E80A2C9C062 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96FDE489B0B61F78F68F6FC3160630F1 /* Pods-ThIosLib_Tests-umbrella.h in Headers */,
+				2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A224117495E030696955C0C657E4F3CB /* Headers */ = {
+		7203E4DD20772D69810245DDF4B81D98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DA0596C4EF01200E16F74A6ABABE67 /* Pods-ThIosLib_Example-umbrella.h in Headers */,
+				3D3B2760C516EE4F2662025E288880BD /* ThIosLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1B2FB8C2BFF05C18FCABF72AD5A938 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C950B32EC62D04B296924A14196A70 /* Pods-ThIosLib_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B87936A38EE52269AA6E1B89035F1C2 /* ThIosLib */ = {
+		432ECC54282C84882B482CCB4CF227FC /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D33C277D131A1ACF03212B2C0D4B90 /* Build configuration list for PBXNativeTarget "ThIosLib" */;
+			buildConfigurationList = 8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				93C1F72EDE1E6F0D67A42D49CDF6CA54 /* Sources */,
-				CBA1184857F3B2EF153E24E1260C713B /* Frameworks */,
-				FA8C3965F0B16E1C976F1E7A4A83C446 /* Resources */,
-				22A7429726F8B52FD6853036B500787C /* Headers */,
+				EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */,
+				A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */,
+				5F7B61281F714E2A64A51E80A2C9C062 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43A59F9924E1E2BB8E51682D7BF931D6 /* PBXTargetDependency */,
 			);
-			name = ThIosLib;
-			productName = ThIosLib;
-			productReference = F4372F5253264D485A5B521C58661605 /* ThIosLib.framework */;
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = ADBF4C1554A0A73C779675861A7610A5 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		532B50FFDB678B526C3C9ADA8944B19E /* Pods-ThIosLib_Example */ = {
+		5B4BBB36AC4B86B52E245230A09E69D3 /* Pods-ThIosLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B9CA048E87E6084D6191B4A3D51506C /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Example" */;
+			buildConfigurationList = 077270B0F80C754A0D099AEA10832407 /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Example" */;
 			buildPhases = (
-				F5A1118239F21F2F2D82AA6D6A3268D8 /* Sources */,
-				EC6864EB7FFA59B89BE48AC8E9444569 /* Frameworks */,
-				A224117495E030696955C0C657E4F3CB /* Headers */,
+				DAF3639558D7752E098F4CDE8059BC69 /* Sources */,
+				7A5A16469EA741915DF11E237DA96CF0 /* Frameworks */,
+				49918CAFEBF87ABE6B42678D3C879AF2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1AD94C79A17E6B6345D584989A26E2B /* PBXTargetDependency */,
+				1421D036688DBA4285E404B4365E089F /* PBXTargetDependency */,
+				C96E8F51EA253630F377AEA394A904AE /* PBXTargetDependency */,
 			);
 			name = "Pods-ThIosLib_Example";
 			productName = "Pods-ThIosLib_Example";
-			productReference = A62423D94F8A45A4496A8EA06F0B04CC /* Pods_ThIosLib_Example.framework */;
+			productReference = 577149B3297A534DAAC585A6370C4138 /* Pods_ThIosLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B3D51874B6D60904C5950A86A49A9EFB /* Pods-ThIosLib_Tests */ = {
+		8A28CE57C8D7A0A0CD4EBED17912C6C2 /* ThIosLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96A7E7899212D235329DD81CB3ACBABA /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Tests" */;
+			buildConfigurationList = 291F805B87A19BF79C0F9C1B4CEC9142 /* Build configuration list for PBXNativeTarget "ThIosLib" */;
 			buildPhases = (
-				F8C244EDA16567BC6783783014CE5C6E /* Sources */,
-				A136103A59191CB978194BFB8C28323E /* Frameworks */,
-				51AF75CF492D51345C4CB1D2C2B93011 /* Headers */,
+				298D180A0E217B70D3C2710D365237A2 /* Sources */,
+				521354D61EA8673903EFAA98BB6CAEC1 /* Frameworks */,
+				B2DCDF6803A6EDEE48EF0D41425FDA67 /* Resources */,
+				7203E4DD20772D69810245DDF4B81D98 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1675EFF258B952D4FAB1D5553799EB8 /* PBXTargetDependency */,
+				372F75E972FE1A1A608B8A0204AE5242 /* PBXTargetDependency */,
+				BB1559E8558B340C1ECAC9AA386B8361 /* PBXTargetDependency */,
+			);
+			name = ThIosLib;
+			productName = ThIosLib;
+			productReference = 59BF3E71C781A10895C7D26A4CC0E1BC /* ThIosLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFACADFED57F1231C4585AD62DAA8E42 /* Pods-ThIosLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034D5EECC6B4B29966034F6CED80E3F0 /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Tests" */;
+			buildPhases = (
+				F6B9E5BF2CD87DDFB986ADC758501104 /* Sources */,
+				8752828CF72917144E66A95667F59824 /* Frameworks */,
+				FB1B2FB8C2BFF05C18FCABF72AD5A938 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E26F280E0FA6908E57AD082D0234C6 /* PBXTargetDependency */,
+				38A674BF533829BEA162F5F5D795E022 /* PBXTargetDependency */,
 			);
 			name = "Pods-ThIosLib_Tests";
 			productName = "Pods-ThIosLib_Tests";
-			productReference = D7DA80E4A0ED6DA714E902A626D7CAEF /* Pods_ThIosLib_Tests.framework */;
+			productReference = A417D7D168FBCF44D8D2AE8D9EF1AF90 /* Pods_ThIosLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EB85E9DE387A8D09CF24D36B284547D1 /* ThIosLib-ThIosLib */ = {
+		B315A825EF585F78F80CFF1701309680 /* ThIosLib-ThIosLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21070F4CFE3BD75241824C211EEA9FA7 /* Build configuration list for PBXNativeTarget "ThIosLib-ThIosLib" */;
+			buildConfigurationList = E7522ECCD09AAB9FCB02E62955767B4C /* Build configuration list for PBXNativeTarget "ThIosLib-ThIosLib" */;
 			buildPhases = (
-				E56E857EA2334EA0B903623D346FB6B6 /* Sources */,
-				3EAD508E3173A871DAC46238FA4F6A72 /* Frameworks */,
-				263293F0452534B7A683326D212DBEC7 /* Resources */,
+				90FE20D90637B6CFEB83D0F924044BA9 /* Sources */,
+				9249497AA8EDF61A0DDCE3F04B9B393A /* Frameworks */,
+				7C1E9C86B02210DBFCD2A63BDD685969 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -345,7 +496,7 @@
 			);
 			name = "ThIosLib-ThIosLib";
 			productName = "ThIosLib-ThIosLib";
-			productReference = 22BDA5C383AD9760B594A9168C1091B7 /* ThIosLib.bundle */;
+			productReference = 98A52D79929907085C540FCEF1263515 /* ThIosLib.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -365,123 +516,136 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9B19C1531C74719C5D9D50C940D4FE88 /* Products */;
+			productRefGroup = 52CDD352C16E48381A3FA383EBCC9A6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				532B50FFDB678B526C3C9ADA8944B19E /* Pods-ThIosLib_Example */,
-				B3D51874B6D60904C5950A86A49A9EFB /* Pods-ThIosLib_Tests */,
-				3B87936A38EE52269AA6E1B89035F1C2 /* ThIosLib */,
-				EB85E9DE387A8D09CF24D36B284547D1 /* ThIosLib-ThIosLib */,
+				432ECC54282C84882B482CCB4CF227FC /* Alamofire */,
+				5B4BBB36AC4B86B52E245230A09E69D3 /* Pods-ThIosLib_Example */,
+				AFACADFED57F1231C4585AD62DAA8E42 /* Pods-ThIosLib_Tests */,
+				8A28CE57C8D7A0A0CD4EBED17912C6C2 /* ThIosLib */,
+				B315A825EF585F78F80CFF1701309680 /* ThIosLib-ThIosLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		263293F0452534B7A683326D212DBEC7 /* Resources */ = {
+		7C1E9C86B02210DBFCD2A63BDD685969 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA8C3965F0B16E1C976F1E7A4A83C446 /* Resources */ = {
+		B2DCDF6803A6EDEE48EF0D41425FDA67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7403BD3989F13DC6BAB6F8EA40B4F1D /* ThIosLib.bundle in Resources */,
+				A6C81E9FCD961E972EC6E33B522D62ED /* ThIosLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		93C1F72EDE1E6F0D67A42D49CDF6CA54 /* Sources */ = {
+		298D180A0E217B70D3C2710D365237A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D066129B5B0C60A0CBE78D0B395D665A /* ReplaceMe.swift in Sources */,
-				F49814B212E45B18E77E6FE471CFE4A6 /* ThIosLib-dummy.m in Sources */,
+				B31548CC0364129FCF68F855B142F0F5 /* ThIosLib-dummy.m in Sources */,
+				F57EE04A3C6E381E535B56E961720A6A /* ThTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E56E857EA2334EA0B903623D346FB6B6 /* Sources */ = {
+		90FE20D90637B6CFEB83D0F924044BA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5A1118239F21F2F2D82AA6D6A3268D8 /* Sources */ = {
+		DAF3639558D7752E098F4CDE8059BC69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B8B55BC55C2F16D8DC88618975DEF5A /* Pods-ThIosLib_Example-dummy.m in Sources */,
+				01FC0C951A2797864D94A94214F96B9B /* Pods-ThIosLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8C244EDA16567BC6783783014CE5C6E /* Sources */ = {
+		EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F17FD8637607D5A62F4B8A56A0D1F68 /* Pods-ThIosLib_Tests-dummy.m in Sources */,
+				B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */,
+				B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */,
+				BD98A0871C2021AD00713E32 /* ThResponseObjectSerializable.swift in Sources */,
+				A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */,
+				BD98A0851C1FFD5300713E32 /* ThApp.swift in Sources */,
+				D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */,
+				A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */,
+				8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */,
+				4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */,
+				FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */,
+				03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */,
+				D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */,
+				82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */,
+				80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */,
+				FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */,
+				0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */,
+				C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6B9E5BF2CD87DDFB986ADC758501104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDE1E4BF0EBEF5CE62E360B7BDE1918 /* Pods-ThIosLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43A59F9924E1E2BB8E51682D7BF931D6 /* PBXTargetDependency */ = {
+		1421D036688DBA4285E404B4365E089F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = 04BC9328CBFE7F7D495CBB852CEC78AE /* PBXContainerItemProxy */;
+		};
+		372F75E972FE1A1A608B8A0204AE5242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = 0AACCF73A3702BDF496A7FA6C53F535A /* PBXContainerItemProxy */;
+		};
+		38A674BF533829BEA162F5F5D795E022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThIosLib;
+			target = 8A28CE57C8D7A0A0CD4EBED17912C6C2 /* ThIosLib */;
+			targetProxy = 7C91F045575BAE037D80712D39B31EE5 /* PBXContainerItemProxy */;
+		};
+		BB1559E8558B340C1ECAC9AA386B8361 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ThIosLib-ThIosLib";
-			target = EB85E9DE387A8D09CF24D36B284547D1 /* ThIosLib-ThIosLib */;
-			targetProxy = 77048EE3D5F58CBC8080B732678BB5B3 /* PBXContainerItemProxy */;
+			target = B315A825EF585F78F80CFF1701309680 /* ThIosLib-ThIosLib */;
+			targetProxy = 167B3EDA2BDC5C11D0E9B38A43D0B8B7 /* PBXContainerItemProxy */;
 		};
-		A1675EFF258B952D4FAB1D5553799EB8 /* PBXTargetDependency */ = {
+		C96E8F51EA253630F377AEA394A904AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ThIosLib;
-			target = 3B87936A38EE52269AA6E1B89035F1C2 /* ThIosLib */;
-			targetProxy = 305E05F130F291E0C6374C15417E72CE /* PBXContainerItemProxy */;
+			target = 8A28CE57C8D7A0A0CD4EBED17912C6C2 /* ThIosLib */;
+			targetProxy = 0765F7629B46B197CCF8BE5609EB4E53 /* PBXContainerItemProxy */;
 		};
-		A1AD94C79A17E6B6345D584989A26E2B /* PBXTargetDependency */ = {
+		E3E26F280E0FA6908E57AD082D0234C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ThIosLib;
-			target = 3B87936A38EE52269AA6E1B89035F1C2 /* ThIosLib */;
-			targetProxy = EC868A40FE64F519644AA21839D73B61 /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = 666AC93C6DE2562244172B015C697D41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04D7116B652BF5E50D1598BCEB8794DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66AFDF195ECE0FA214E86878DCC5088F /* Pods-ThIosLib_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThIosLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ThIosLib_Tests/Pods-ThIosLib_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ThIosLib_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -516,7 +680,7 @@
 			};
 			name = Release;
 		};
-		19A56CD93B9471DACD3550B6755FF692 /* Release */ = {
+		1291EB17D9C535DA3A3D220DAD6BFF29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */;
 			buildSettings = {
@@ -528,9 +692,9 @@
 			};
 			name = Release;
 		};
-		1B363023A632836EFEA5047979F49F34 /* Release */ = {
+		1E2D795100B40CC572A8DAA99C27608B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */;
+			baseConfigurationReference = 66AFDF195ECE0FA214E86878DCC5088F /* Pods-ThIosLib_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -539,14 +703,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ThIosLib/ThIosLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ThIosLib/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThIosLib_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ThIosLib/ThIosLib.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThIosLib_Tests/Pods-ThIosLib_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ThIosLib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ThIosLib_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,21 +722,9 @@
 			};
 			name = Release;
 		};
-		27236341CCCA09FB130046DEB9E79ECB /* Debug */ = {
+		4FEB631EBA91F8DE801168C137059B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ThIosLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		47C5AA86578D850BABDB8D7327B9D2C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67B1720756D90B21DAF7D4D8B330B5BE /* Pods-ThIosLib_Example.debug.xcconfig */;
+			baseConfigurationReference = A5FB679D2CC7439D85E3C425E2C47C3C /* Pods-ThIosLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -578,17 +733,45 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThIosLib_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThIosLib_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ThIosLib_Example/Pods-ThIosLib_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ThIosLib_Tests/Pods-ThIosLib_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ThIosLib_Example;
+				PRODUCT_NAME = Pods_ThIosLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51347C6CC43E058148BBA2D2833EC82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -637,7 +820,35 @@
 			};
 			name = Debug;
 		};
-		69695D7286D85DEB869EA5142A386232 /* Release */ = {
+		5DC644C033CE111DC87AF4356BC629D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThIosLib/ThIosLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThIosLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThIosLib/ThIosLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ThIosLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62A977AB8F86D4FF65358274C4053EEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F36B882ED81092EAD8887A697D410C32 /* Pods-ThIosLib_Example.release.xcconfig */;
 			buildSettings = {
@@ -667,9 +878,9 @@
 			};
 			name = Release;
 		};
-		A0A77BB7BFEF05317550F060340B6F52 /* Debug */ = {
+		BCDE1E85FD75D976235B1535F079754A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5FB679D2CC7439D85E3C425E2C47C3C /* Pods-ThIosLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -678,17 +889,56 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThIosLib_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF5245B2D63B13932CB3D24294737049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ThIosLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D53240EA6FFEB921ED39645C08AE0B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B1720756D90B21DAF7D4D8B330B5BE /* Pods-ThIosLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThIosLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ThIosLib_Tests/Pods-ThIosLib_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ThIosLib_Example/Pods-ThIosLib_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_ThIosLib_Tests;
+				PRODUCT_NAME = Pods_ThIosLib_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -698,7 +948,7 @@
 			};
 			name = Debug;
 		};
-		B8294F4506FD69B259FBECD612440468 /* Debug */ = {
+		DAC2695AD72D2FF9D778A46A4236B191 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 348DCDE262A9D465E44243E02D5C40B4 /* ThIosLib.xcconfig */;
 			buildSettings = {
@@ -715,25 +965,42 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ThIosLib/ThIosLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ThIosLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21070F4CFE3BD75241824C211EEA9FA7 /* Build configuration list for PBXNativeTarget "ThIosLib-ThIosLib" */ = {
+		034D5EECC6B4B29966034F6CED80E3F0 /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27236341CCCA09FB130046DEB9E79ECB /* Debug */,
-				19A56CD93B9471DACD3550B6755FF692 /* Release */,
+				4FEB631EBA91F8DE801168C137059B11 /* Debug */,
+				1E2D795100B40CC572A8DAA99C27608B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077270B0F80C754A0D099AEA10832407 /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D53240EA6FFEB921ED39645C08AE0B7A /* Debug */,
+				62A977AB8F86D4FF65358274C4053EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291F805B87A19BF79C0F9C1B4CEC9142 /* Build configuration list for PBXNativeTarget "ThIosLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC644C033CE111DC87AF4356BC629D0 /* Debug */,
+				DAC2695AD72D2FF9D778A46A4236B191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -747,29 +1014,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44D33C277D131A1ACF03212B2C0D4B90 /* Build configuration list for PBXNativeTarget "ThIosLib" */ = {
+		8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8294F4506FD69B259FBECD612440468 /* Debug */,
-				1B363023A632836EFEA5047979F49F34 /* Release */,
+				51347C6CC43E058148BBA2D2833EC82A /* Debug */,
+				BCDE1E85FD75D976235B1535F079754A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B9CA048E87E6084D6191B4A3D51506C /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Example" */ = {
+		E7522ECCD09AAB9FCB02E62955767B4C /* Build configuration list for PBXNativeTarget "ThIosLib-ThIosLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47C5AA86578D850BABDB8D7327B9D2C9 /* Debug */,
-				69695D7286D85DEB869EA5142A386232 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		96A7E7899212D235329DD81CB3ACBABA /* Build configuration list for PBXNativeTarget "Pods-ThIosLib_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0A77BB7BFEF05317550F060340B6F52 /* Debug */,
-				04D7116B652BF5E50D1598BCEB8794DA /* Release */,
+				CF5245B2D63B13932CB3D24294737049 /* Debug */,
+				1291EB17D9C535DA3A3D220DAD6BFF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

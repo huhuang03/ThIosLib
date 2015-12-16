@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ThIosLib_Example/Alamofire.framework"
   install_framework "Pods-ThIosLib_Example/ThIosLib.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ThIosLib_Example/Alamofire.framework"
   install_framework "Pods-ThIosLib_Example/ThIosLib.framework"
 fi
