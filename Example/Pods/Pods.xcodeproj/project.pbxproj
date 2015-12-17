@@ -28,6 +28,7 @@
 		B6D9238C2ACD60BC6C1043D02DFF175C /* Pods-ThIosLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0182035498956B763318B34125B2762A /* Pods-ThIosLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD98A0851C1FFD5300713E32 /* ThApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98A0841C1FFD5300713E32 /* ThApp.swift */; };
 		BD98A0871C2021AD00713E32 /* ThResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD98A0861C2021AD00713E32 /* ThResponseObjectSerializable.swift */; };
+		BDF6618F1C2149B600F9270B /* ThResponseCollectionSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6618E1C2149B600F9270B /* ThResponseCollectionSerializable.swift */; };
 		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B19103BE8402A434ED95F67573911 /* Validation.swift */; };
 		CFDE1E4BF0EBEF5CE62E360B7BDE1918 /* Pods-ThIosLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA6B5CC25471CF7BABD55F75572299B /* Pods-ThIosLib_Tests-dummy.m */; };
 		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */; };
@@ -133,6 +134,7 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD98A0841C1FFD5300713E32 /* ThApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThApp.swift; sourceTree = "<group>"; };
 		BD98A0861C2021AD00713E32 /* ThResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		BDF6618E1C2149B600F9270B /* ThResponseCollectionSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThResponseCollectionSerializable.swift; sourceTree = "<group>"; };
 		C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
 		CA4AFEBCD05E71EF894C674FA1E278B1 /* Pods-ThIosLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThIosLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0F8EBC5726A37D39B81B2E05F8A1F2A /* Pods-ThIosLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThIosLib_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 				8BCB8D6ECF5FA31EF464A5D1C15DF4A7 /* ThTest.swift */,
 				BD98A0841C1FFD5300713E32 /* ThApp.swift */,
 				BD98A0861C2021AD00713E32 /* ThResponseObjectSerializable.swift */,
+				BDF6618E1C2149B600F9270B /* ThResponseCollectionSerializable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -588,6 +591,7 @@
 				FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */,
 				03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */,
 				D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */,
+				BDF6618F1C2149B600F9270B /* ThResponseCollectionSerializable.swift in Sources */,
 				82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */,
 				80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */,
 				FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */,
