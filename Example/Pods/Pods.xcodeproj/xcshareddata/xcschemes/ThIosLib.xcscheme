@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '388D7C1448968D416BFB25D4'
+               BlueprintIdentifier = '6865863F55973D5B2361CC6D'
                BlueprintName = 'ThIosLib'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ThIosLib.framework'>

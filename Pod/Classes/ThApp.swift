@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public class ThApp {
     static var HAS_INIT = false;
@@ -19,10 +20,6 @@ public class ThApp {
     }
     
     private static func setUpInternal() {
-//        Alamofire.request(.GET, "https://httpbin.org/get")
-//            .responseJSON { response in
-//                debugPrint(response)
-//        }
     }
     
 }

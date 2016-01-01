@@ -26,4 +26,24 @@ class Tests: XCTestCase {
         }
     }
     
+    func testDictToModel() {
+        class Person : NSObject {
+            var name: String?
+            var age: String?
+            var cat: Cat?
+        }
+        
+        class Cat :NSObject {
+            var name: String?
+        }
+        
+        let pDict = ["name" : "zhangsan",
+            "age" : "12",
+        ]
+        
+        let p = Person.byJson(pDict)
+        
+        print(p)
+    }
+    
 }
