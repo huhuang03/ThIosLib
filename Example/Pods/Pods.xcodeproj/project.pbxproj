@@ -12,6 +12,7 @@
 		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */; };
 		191285411C33ADFD00F5A7ED /* XJRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191285401C33ADFD00F5A7ED /* XJRuntime.swift */; };
 		195165A61C36352E004F2AF4 /* DictToObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195165A51C36352E004F2AF4 /* DictToObject.swift */; };
+		19FD50D51C4A928F00BA1C5C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD50D41C4A928F00BA1C5C /* UIColorExtension.swift */; };
 		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37C950B32EC62D04B296924A14196A70 /* Pods-ThIosLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0214D92483273534EA9226F8245B24 /* Pods-ThIosLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39413C392F571C4B10B12566079E5C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
@@ -94,6 +95,7 @@
 		116A1926161B76041859A2A2B4D6297B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		191285401C33ADFD00F5A7ED /* XJRuntime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJRuntime.swift; sourceTree = "<group>"; };
 		195165A51C36352E004F2AF4 /* DictToObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictToObject.swift; sourceTree = "<group>"; };
+		19FD50D41C4A928F00BA1C5C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		1CA6B5CC25471CF7BABD55F75572299B /* Pods-ThIosLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThIosLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -215,6 +217,14 @@
 				405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */,
 			);
 			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		19FD50D31C4A927200BA1C5C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				19FD50D41C4A928F00BA1C5C /* UIColorExtension.swift */,
+			);
+			name = extension;
 			sourceTree = "<group>";
 		};
 		20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */ = {
@@ -359,6 +369,7 @@
 		A5819AE7E998A7B260080413AD3FB0D5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				19FD50D31C4A927200BA1C5C /* extension */,
 				191285401C33ADFD00F5A7ED /* XJRuntime.swift */,
 				7C911BB040805765748FDA3029B63AB3 /* ThApp.swift */,
 				88CF5613D23E12214F75D158BA6821F9 /* ThResponseCollectionSerializable.swift */,
@@ -589,6 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FD50D51C4A928F00BA1C5C /* UIColorExtension.swift in Sources */,
 				B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */,
 				B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */,
 				A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */,
